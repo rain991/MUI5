@@ -1,4 +1,4 @@
-package com.example.mui5.ui.theme
+package com.example.mui5.presentation.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle
