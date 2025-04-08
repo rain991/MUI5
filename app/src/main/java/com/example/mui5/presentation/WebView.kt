@@ -8,7 +8,6 @@ import androidx.compose.ui.viewinterop.AndroidView
 
 @Composable
 fun WebViewer(modifier : Modifier, url : String){
-
     AndroidView(modifier = modifier, factory = {
         WebView(it).apply {
             layoutParams = ViewGroup.LayoutParams(
